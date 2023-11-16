@@ -49,3 +49,4 @@ mongoose
   // NOTA:
   // Vean que una variante a hacerle .then() a cada método es retornar la promesa y encadenar
   // los .then() uno tras otro. De esta forma es más fácil de leer.
+  // Además de que si hay un error, se va directamente al .catch() final.
