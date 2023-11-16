@@ -43,7 +43,7 @@ mongoose
   })
   .catch(error => {
     // Si hay algún error, lo mostramos por consola
-    console.error('Error connecting to the database', error);
+    console.error(error);
   });
 
   // NOTA:
